@@ -1,0 +1,46 @@
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    maven {
+        url "https://repository.medallia.com/digital-maven/"
+    }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+    implementation "com.google.code.gson:gson:2.8.2"
+    implementation "com.android.volley:volley:1.1.1"
+    implementation 'com.medallia.digital.mobilesdk:android-sdk:3.1.1'
+    implementation 'com.google.android.gms:play-services-gcm:16.1.0'
+}
+  

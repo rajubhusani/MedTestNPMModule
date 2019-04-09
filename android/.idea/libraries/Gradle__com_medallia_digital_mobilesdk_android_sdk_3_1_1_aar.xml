@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.medallia.digital.mobilesdk:android-sdk:3.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-3.1.1.aar/1b79ba485c9704cfc92a834499a8ed6f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-sdk-3.1.1.aar/1b79ba485c9704cfc92a834499a8ed6f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.medallia.digital.mobilesdk/android-sdk/3.1.1/d1ab6a07b28cfa8dac9ee88c693103b329eeb757/android-sdk-3.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
