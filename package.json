@@ -7,12 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "url": "C:/Users/o12867/Desktop/WebProject/ReactProjects/MedTestLibrary"
+    "type": "git",
+    "url": "https://github.com/rajubhusani/MedTestNPMModule.git"
   },
   "keywords": [
     "react-native"
   ],
-  "author": "",
+  "nativePackage": true,
+  "author": "Nagaraju",
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2",
